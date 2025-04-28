@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Calculator Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator glass">
+  <div class="top-bar">
+    <button id="themeToggle">🎨</button>
+    <button id="darkModeToggle">🌙</button>
+  </div>
+
+  <input type="text" id="display" disabled placeholder="0">
+
+  <div id="history">
+    <div class="history-title">History <button id="clearHistory">🗑️</button></div>
+    <div id="historyList"></div>
+  </div>
+
+  <div class="buttons">
+    <button class="btn func" data-value="sin(">sin</button>
+    <button class="btn func" data-value="cos(">cos</button>
+    <button class="btn func" data-value="tan(">tan</button>
+    <button class="btn operator" data-value="/">÷</button>
+
+    <button class="btn" data-value="7">7</button>
+    <button class="btn" data-value="8">8</button>
+    <button class="btn" data-value="9">9</button>
+    <button class="btn operator" data-value="*">×</button>
+
+    <button class="btn" data-value="4">4</button>
+    <button class="btn" data-value="5">5</button>
+    <button class="btn" data-value="6">6</button>
+    <button class="btn operator" data-value="-">-</button>
+
+    <button class="btn" data-value="1">1</button>
+    <button class="btn" data-value="2">2</button>
+    <button class="btn" data-value="3">3</button>
+    <button class="btn operator" data-value="+">+</button>
+
+    <button class="btn" data-value="0">0</button>
+    <button class="btn" data-value=".">.</button>
+    <button class="btn" id="sqrt">√</button>
+    <button class="btn" id="equals">=</button>
+
+    <button class="btn" data-value="Math.PI">π</button>
+    <button class="btn" data-value="Math.E">e</button>
+    <button class="btn" id="pow">^</button>
+    <button class="btn" id="exp">exp</button>
+
+    <button class="btn" id="log">log</button>
+    <button class="btn" id="abs">abs</button>
+    <button class="btn" id="toggleDegRad">Deg</button>
+    <button class="btn" id="clear">C</button>
+
+    <button class="btn" id="memAdd">M+</button>
+    <button class="btn" id="memSub">M-</button>
+    <button class="btn" id="memRec">MR</button>
+    <button class="btn" id="memClear">MC</button>
+
+    <button class="btn" id="delete">DEL</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
