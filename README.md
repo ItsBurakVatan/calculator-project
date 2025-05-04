@@ -27,23 +27,6 @@ A **Professional Scientific Calculator** built with pure **HTML**, **CSS**, and 
 
 ---
 
-## 🎥 Preview
-
-| Light Mode | Dark Mode |
-|:---:|:---:|
-| ![Light Mode Screenshot](screenshots/light.png) | ![Dark Mode Screenshot](screenshots/dark.png) |
-
-*(Screenshots optional — upload to `/screenshots` folder if you want)*
-
----
-
-## 🚀 Live Demo
-
-> Coming soon (after you upload it to GitHub Pages)!  
-Example: [https://yourusername.github.io/scientific-calculator-pro](https://yourusername.github.io/scientific-calculator-pro)
-
----
-
 ## ⚙️ Features
 
 - **Error Handling**: Shows clean error messages
@@ -72,4 +55,4 @@ Example: [https://yourusername.github.io/scientific-calculator-pro](https://your
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/scientific-calculator-pro.git
+git clone https://github.com/ItsBurakVatan/scientific-calculator-pro.git
